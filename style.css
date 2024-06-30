@@ -1,0 +1,80 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+.header-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.about-content {
+    max-width: 800px;
+    margin: 20px auto;
+    text-align: center;
+}
+/* .about-content img {
+    max-width: 200%;
+    height: 12px;
+    border-radius: 20%; /* Example: Makes the image round */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Example: Adds a subtle shadow */
+} */
+
+
+.skills-content {
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+.projects-content {
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+.project {
+    margin-bottom: 20px;
+}
+
+.resume-content {
+    max-width: 800px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.contact-content {
+    max-width: 800px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.footer-content {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-content a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
